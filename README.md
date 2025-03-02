@@ -45,7 +45,7 @@ Ensure you have the following installed:
 ### **Steps to Run the Project**
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/guess-the-country.git
+   git clone https://github.com/Sanjayan-Ganesan/guess-it.git
    cd guess-the-country
    ```
 2. **Install frontend dependencies**
