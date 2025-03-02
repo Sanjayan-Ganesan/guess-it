@@ -1,0 +1,32 @@
+.App {
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: rgb(12, 0, 36);
+  background: radial-gradient(circle, rgba(12, 0, 36, 1) 0%, rgba(1, 0, 11, 1) 11%, rgba(4, 3, 42, 1) 37%, rgba(3, 30, 69, 1) 43%, rgba(2, 1, 18, 1) 55%, rgba(0, 212, 255, 1) 84%);
+}
+
+.gradientBorder {
+  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-width: 4px;
+  border-style: solid;
+  padding: 5px;
+}
+
+.Gamecntr{
+  background-color: transparent;
+}
+
+.transformer{
+  color: #3acfd5 !important;
+  transform: rotateZ(357deg);
+}
+
+select {
+  background-color: #616163 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px  !important;
+  padding: 5px  !important;
+  margin: 5px !important;
+}
