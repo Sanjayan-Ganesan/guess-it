@@ -12,13 +12,7 @@ const DataModel = require('./Models/Data');
 
 
 const app = express();
-app.use(cors(
-    {
-        origin:"https://guess-it-frontend.vercel.app",
-        methods:"POST,GET",
-        credentials: true
-    }));
-
+app.use(cors());
 app.use(express.json());
 dotenv.config();
 

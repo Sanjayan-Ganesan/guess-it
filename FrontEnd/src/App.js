@@ -15,7 +15,7 @@ function App() {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    fetch('https://guess-it-api.vercel.app/getData')
+    fetch('http://localhost:5000/getData')
       .then((response) => {
         response.json().then(data => {
           setData(data);
