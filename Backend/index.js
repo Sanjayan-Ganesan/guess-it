@@ -14,7 +14,7 @@ const DataModel = require('./Models/Data');
 const app = express();
 app.use(cors(
     {
-        origin:"https://deploy-mern-lwhq.vercel.app",
+        origin:"https://guess-it-frontend.vercel.app",
         methods:"POST,GET",
         credentials: true
     }));
